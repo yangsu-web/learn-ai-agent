@@ -12,3 +12,7 @@ env/
 # 系统文件
 Thumbs.db
 .DS_Store
+
+# 编译产物
+*.exe
+*.o
