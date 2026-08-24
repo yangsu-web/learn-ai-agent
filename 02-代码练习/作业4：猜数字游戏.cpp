@@ -20,12 +20,11 @@ int main() {
 		}else if(secret>guess){
     	printf("小了，请再输入一个数：");
     	scanf("%d",&guess);
-		}else if(secret==guess){
-		break;}
+		}
 		cnt++;
     }
     
-    printf("恭喜！你猜了%d次",cnt);
+    printf("恭喜！你猜了%d次\n",cnt);
     
     return 0;
 }
